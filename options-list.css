@@ -1,0 +1,31 @@
+.options-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.options-list__item {
+  height: 50px;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 16px 0;
+}
+.options-list__item:nth-child(odd) {
+  background-color: #2a3438;
+}
+.options-list__icon {
+  display: inline-block;
+  width: 15px;
+  height: 13px;
+  margin: 0 22px;
+}
+.options-list__checkmark-green {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+}
+.options-list__checkmark-blue {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+}
+.options-list__checkmark-orange {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+}
