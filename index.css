@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight: 300;
+}
+
+.price-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #141b1c;
+  height: 100vh;
+}
+
+.price-card {
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+  width: 380px;
+  height: 770px;
+  background-color: #334247;
+  margin-right: 18px;
+}
+.price-card:last-child {
+  margin-right: 0;
+}
+.price-card__badge {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 147px;
+  height: 25px;
+  background-color: #dc3f45;
+  transform: rotate(45deg);
+  top: 30px;
+  right: -35px;
+}
+.price-card__badge-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+.price-card__title {
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  margin-top: 33px;
+}
+.price-card__subtitle {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 33px;
+}
+.price-card__price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 105px;
+  background-color: #5bb189;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  margin-bottom: 40px;
+}
+.price-card__price_blue {
+  background-color: #3a6ba5;
+}
+.price-card__price_orange {
+  background-color: #ec632a;
+}
+.price-card__description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 327px;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 40px auto;
+  text-align: center;
+}
+.price-card__order-btn {
+  background-color: #5bb189;
+  border: none;
+  border-radius: 50px;
+  width: 150px;
+  height: 40px;
+  margin: 40px 112px;
+  padding: 11px 28px 12px 27px;
+}
+.price-card__order-btn_blue {
+  background-color: #3a6ba5;
+}
+.price-card__order-btn_orange {
+  background-color: #ec632a;
+}
+.price-card__order-btn-text {
+  font-weight: 400;
+  color: #fff;
+  line-height: 17px;
+  font-size: 14px;
+}
