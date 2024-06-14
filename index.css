@@ -17,7 +17,6 @@ html {
 }
 
 .price-card {
-  flex-shrink: 0;
   position: relative;
   overflow: hidden;
   width: 380px;
@@ -78,9 +77,6 @@ html {
   background-color: #ec632a;
 }
 .price-card__description {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 327px;
   font-size: 15px;
   line-height: 18px;
@@ -99,18 +95,15 @@ html {
   height: 40px;
   margin: 40px 112px;
   padding: 11px 28px 12px 27px;
+  color: #fff;
+  line-height: 17px;
+  font-size: 14px;
 }
 .price-card__order-btn_blue {
   background-color: #3a6ba5;
 }
 .price-card__order-btn_orange {
   background-color: #ec632a;
-}
-.price-card__order-btn-text {
-  font-weight: 400;
-  color: #fff;
-  line-height: 17px;
-  font-size: 14px;
 }
 
 .options-list {
@@ -142,3 +135,5 @@ html {
 .options-list__checkmark-orange {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
+
+/*# sourceMappingURL=index.css.map */
