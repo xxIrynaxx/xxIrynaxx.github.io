@@ -60,7 +60,9 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .header {
+    padding: 0;
     margin: auto;
+    align-items: normal;
     width: 1140px;
     height: 62px;
     background: #f3c6bd;
@@ -136,9 +138,9 @@ html {
 
 .logo {
   display: flex;
+  align-items: center;
 }
 .logo__image {
-  margin-right: 13px;
   width: 48px;
   height: 48px;
 }
@@ -181,12 +183,11 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .headline {
-    margin: auto;
-    margin-top: 84px;
-    padding-bottom: 77px;
+    margin: 76px 0 77px 130px;
     display: flex;
     position: relative;
-    width: 1140px;
+    width: 1245px;
+    height: 456px;
   }
 }
 .headline__content {
@@ -217,7 +218,8 @@ html {
   }
 }
 .headline__description {
-  margin-top: 24px;
+  margin: 0;
+  margin-top: 30px;
   font-size: 24px;
   line-height: 34px;
 }
@@ -237,6 +239,7 @@ html {
 @media screen and (min-width: 1400px) {
   .headline__actions {
     margin-top: 58px;
+    margin-bottom: 49px;
     display: flex;
   }
 }
@@ -263,10 +266,12 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .headline__banner {
+    margin: 0;
     margin-left: auto;
+    margin-right: 25px;
     position: relative;
-    right: -105px;
-    top: 0;
+    right: -25px;
+    top: 8px;
     width: 796px;
     height: 448px;
     z-index: 0;
@@ -510,21 +515,23 @@ html {
     flex-direction: row;
   }
 }
+.inbox__figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media screen and (min-width: 1400px) {
   .inbox__figure {
     margin: 0;
     margin: 142px 0 101px 193px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 }
 .inbox__illustration {
-  max-width: 100%;
+  width: 290px;
 }
 @media screen and (min-width: 1400px) {
   .inbox__illustration {
-    max-width: 425px;
+    width: 425px;
   }
 }
 .inbox__illustration-caption {
@@ -1029,12 +1036,13 @@ html {
 .order__illustration {
   margin: 0 auto;
   display: flex;
+  width: 200px;
 }
 @media screen and (min-width: 1400px) {
   .order__illustration {
     margin: 0;
     margin-right: 121.59px;
-    max-width: 269.41px;
+    width: 269.41px;
     min-height: 296px;
   }
 }
@@ -1059,7 +1067,7 @@ html {
   }
 }
 .order__email {
-  margin-top: 40px;
+  margin-top: 80px;
   background: #fff;
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 2px;
@@ -1104,9 +1112,15 @@ html {
 }
 
 .footer {
+  padding: 40px 0 23px;
   margin-top: auto;
   display: flex;
   flex-direction: column;
+}
+@media screen and (min-width: 1400px) {
+  .footer {
+    padding: 0;
+  }
 }
 .footer__description {
   margin-top: 26px;
@@ -1123,7 +1137,6 @@ html {
 }
 .footer__line {
   margin: 0;
-  margin-top: 40px;
   border-top: 1px solid #2b292d;
   width: 100%;
   opacity: 0.1;
@@ -1139,8 +1152,10 @@ html {
   }
 }
 
-.about-company {
-  margin-top: 44px;
+@media screen and (min-width: 1400px) {
+  .about-company {
+    margin-top: 44px;
+  }
 }
 
 .footer-navigation {
@@ -1159,7 +1174,7 @@ html {
 }
 
 .downloads {
-  margin: 25px 15px 0 15px;
+  margin: 31px 29px 40px 30px;
   display: flex;
   justify-content: center;
 }
@@ -1216,6 +1231,12 @@ html {
   line-height: 30px;
   color: rgba(43, 41, 45, 0.6);
 }
+.nav-links__list-item {
+  margin-bottom: 6px;
+}
+.nav-links__list-item:last-child {
+  margin-bottom: 0;
+}
 
 .footer-links {
   margin-left: 15px;
@@ -1251,8 +1272,7 @@ html {
 }
 
 .social-links {
-  margin-top: 31px;
-  margin-bottom: 23px;
+  margin-top: 30px;
 }
 @media screen and (min-width: 1400px) {
   .social-links {
@@ -1277,7 +1297,7 @@ html {
   }
 }
 .logo-vertical__image {
-  width: 60px;
+  width: 65px;
   height: 60px;
 }
 .logo-vertical__name {
